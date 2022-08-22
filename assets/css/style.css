@@ -1,0 +1,103 @@
+body {
+    font-family: "Raleway", sans-serif;
+    color: #fff;
+    background-color: #000;
+}
+
+.header {
+    text-align: center;
+}
+
+.header img{
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin: 0;
+    font-weight: 500;
+    text-align: center;
+    font-size: 40px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 106px;
+    text-align: center;
+    padding: 45px 0;
+}
+
+.info-text {
+    font-weight: 300;
+    width: 475px;
+    text-align: left;
+}
+
+.info img {
+    width: 399px;
+    height: 237px;
+}
+
+.features {
+    background-color: #1e1a13;
+    padding: 75px 0;
+}
+
+.feature-container{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.feature {
+    text-align: center;
+}
+
+.feature p {
+    font-weight: 300;
+    font-size: 25px;
+}
+
+.feature i {
+    font-size: 3rem;
+}
+
+.gallery {
+    padding: 73px 0;
+    text-align: center;
+}
+
+.gallery{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.gallery img {
+    width: 316px;
+    height: 202px;
+}
+
+footer {
+    background-color: #1e1a13;
+    text-align: center;
+}
+
+footer p {
+    margin: 0;
+    padding: 39px 0;
+    font-size: 20px;
+    font-weight: 300;
+}
